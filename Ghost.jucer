@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Rdlhxl" name="Ghost" projectType="guiapp" jucerVersion="5.3.2">
+  <MAINGROUP id="RjmqvS" name="Ghost">
+    <GROUP id="{05C2F31F-9E62-0D4E-2689-0F29DEF05B52}" name="Source">
+      <GROUP id="{7ADF5B1F-1F3D-C7F2-DC16-B05DF5CD4038}" name="Main">
+        <FILE id="sGMM3e" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+        <FILE id="sDuDGx" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+        <FILE id="Akwrsf" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/MainComponent.cpp"/>
+        <FILE id="H4gtoZ" name="E.h" compile="0" resource="0" file="Source/E.h"/>
+        <FILE id="kUH5m1" name="F.h" compile="0" resource="0" file="Source/F.h"/>
+        <FILE id="bsnxl7" name="SetExternal.cpp" compile="1" resource="0" file="Source/SetExternal.cpp"/>
+        <FILE id="j7n0dB" name="SetExternal.h" compile="0" resource="0" file="Source/SetExternal.h"/>
+      </GROUP>
+      <GROUP id="{E028BE34-47C9-F4E4-B3F4-574F1356D2AD}" name="Trading">
+        <FILE id="BMVS4K" name="Trader.cpp" compile="1" resource="0" file="Source/Trader.cpp"/>
+        <FILE id="cxXZd0" name="Trader.h" compile="0" resource="0" file="Source/Trader.h"/>
+        <FILE id="Pxw21Y" name="Simulator.cpp" compile="1" resource="0" file="Source/Simulator.cpp"/>
+        <FILE id="hdm0VP" name="Simulator.h" compile="0" resource="0" file="Source/Simulator.h"/>
+        <FILE id="zr9rpP" name="CoinPair.cpp" compile="1" resource="0" file="Source/CoinPair.cpp"/>
+        <FILE id="l3Hp8K" name="CoinPair.h" compile="0" resource="0" file="Source/CoinPair.h"/>
+        <FILE id="cQoCHv" name="TradeValueSet.cpp" compile="1" resource="0"
+              file="Source/TradeValueSet.cpp"/>
+        <FILE id="rTT9R8" name="TradeValueSet.h" compile="0" resource="0" file="Source/TradeValueSet.h"/>
+        <FILE id="JYI7Sk" name="ThreadPoolJobs.cpp" compile="1" resource="0"
+              file="Source/ThreadPoolJobs.cpp"/>
+        <FILE id="wYF10f" name="ThreadPoolJobs.h" compile="0" resource="0"
+              file="Source/ThreadPoolJobs.h"/>
+      </GROUP>
+      <GROUP id="{88E0D2D4-650A-7252-668E-DEEA10416B4A}" name="Utilities">
+        <FILE id="hnZjsf" name="hmac.h" compile="0" resource="0" file="Source/hmac.h"/>
+        <FILE id="jYijOc" name="Indicators.cpp" compile="1" resource="0" file="Source/Indicators.cpp"/>
+        <FILE id="jfeslI" name="Indicators.h" compile="0" resource="0" file="Source/Indicators.h"/>
+        <FILE id="tQC2Zx" name="sha256.cpp" compile="1" resource="0" file="Source/sha256.cpp"/>
+        <FILE id="Qlhuwu" name="sha256.h" compile="0" resource="0" file="Source/sha256.h"/>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../Documents/JUCE42/modules/juce_audio_basics"/>
+        <MODULEPATH id="juce_events" path="../../../../Documents/JUCE42/modules/juce_audio_basics"/>
+        <MODULEPATH id="juce_graphics" path="../../../../Documents/JUCE42/modules/juce_audio_basics"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../Documents/JUCE42/modules/juce_audio_basics"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../Documents/JUCE42/modules/juce_audio_basics"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../Documents/JUCE42/modules/juce_audio_basics"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../Documents/JUCE42/modules/juce_audio_basics"/>
+        <MODULEPATH id="juce_video" path="../../../../Documents/JUCE42/modules/juce_audio_basics"/>
+        <MODULEPATH id="juce_opengl" path="../../../../Documents/JUCE42/modules/juce_audio_basics"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../Documents/JUCE42/modules/juce_audio_basics"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../Documents/JUCE42/modules/juce_audio_devices"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../Documents/JUCE42/modules/juce_audio_basics"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../Documents/JUCE42/modules/juce_audio_basics"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
